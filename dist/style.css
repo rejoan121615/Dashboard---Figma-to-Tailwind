@@ -994,6 +994,10 @@ select {
   padding-left: 18px;
 }
 
+.pl-\[18px\] {
+  padding-left: 18px;
+}
+
 .pt-10 {
   padding-top: 2.5rem;
 }
