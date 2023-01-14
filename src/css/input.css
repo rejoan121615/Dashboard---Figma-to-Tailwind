@@ -15,6 +15,12 @@
   a {
     @apply text-14px font-[500] leading-[48px];
   }
+  /* select box customization  */
+  select {
+    @apply appearance-none relative;
+    background: white url("../../images/icons/chevron-down.png") no-repeat 298px center;
+    background-size: 22px;
+  }
 }
 
 @layer components {
