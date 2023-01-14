@@ -18,7 +18,11 @@ module.exports = {
                 "14px": "14px",
             },
             lineHeight: {
+                "19px": "19px",
                 '48px': "48px"
+            },
+            fontWeight: {
+                "500": 500
             }
         },
     },
