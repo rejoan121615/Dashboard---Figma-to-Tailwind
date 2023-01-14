@@ -1,15 +1,14 @@
 const x = document.querySelector(".option_btn");
-let a = true
+let toggler = true
 
 x.onclick = () => {
   if (a == true) {
-    a = false
-    console.log(a)
+    toggler = false
     document.querySelector(".demo").style.display = "block";
   }
 
   else{
-    a = true
+    toggler = true
     document.querySelector(".demo").style.display = "none";
   }
 };
