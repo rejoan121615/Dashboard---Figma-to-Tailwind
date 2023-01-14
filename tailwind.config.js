@@ -12,7 +12,13 @@ module.exports = {
                 "6px": "6px",
             },
             fontFamily: {
-                "inter" : "'Inter', sans-serif"
+                inter: "'Inter', sans-serif",
+            },
+            fontSize: {
+                "14px": "14px",
+            },
+            lineHeight: {
+                '48px': "48px"
             }
         },
     },

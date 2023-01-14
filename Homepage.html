@@ -10,10 +10,10 @@
     <body>
         <!-- Top Menuber -->
         <header>
-            <div class="container p-5 pb-0">
+            <div class="p-5 pt-3 pb-0 flex justify-between">
                 <div class="flex items-start gap-x-5">
                     <!-- brand logo  -->
-                    <div class="w-9 h-9 mt-2 ">
+                    <div class="w-9 h-9 mt-1 ">
                         <img
                             class="w-full h-full"
                             src="./images/logo.png"
@@ -37,9 +37,13 @@
                         </li>
                     </ul>
                 </div>
-                <div>
-                    <button>Logout</button>
-                    <button>Z</button>
+                <!-- user area  -->
+                <div class=" flex items-center gap-x-3 -mt-3 ">
+                    <a class=" text-14px leading-48px font-[500] capitalize text-98A2B3   " href="#">logout</a>
+                    <!-- profile  -->
+                    <div class=" w-[34px] h-[34px] rounded-full ">
+                      <img src="./images/profile-img.png" alt="Profile Images">
+                    </div>
                 </div>
             </div>
         </header>

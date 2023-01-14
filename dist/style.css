@@ -419,6 +419,16 @@ video {
   display: none;
 }
 
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 48px;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -547,13 +557,32 @@ video {
   }
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-\[6px\] {
+  margin-top: 6px;
+}
+
+.-mt-1 {
+  margin-top: -0.25rem;
+}
+
+.-mt-2 {
+  margin-top: -0.5rem;
+}
+
+.-mt-3 {
+  margin-top: -0.75rem;
+}
+
+.-mt-4 {
+  margin-top: -1rem;
 }
 
 .flex {
@@ -568,12 +597,20 @@ video {
   height: 100%;
 }
 
+.h-\[34px\] {
+  height: 34px;
+}
+
 .w-9 {
   width: 2.25rem;
 }
 
 .w-full {
   width: 100%;
+}
+
+.w-\[34px\] {
+  width: 34px;
 }
 
 .items-start {
@@ -584,30 +621,26 @@ video {
   align-items: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .gap-x-5 {
   -moz-column-gap: 1.25rem;
        column-gap: 1.25rem;
 }
 
-.border-b {
-  border-bottom-width: 1px;
+.gap-x-3 {
+  -moz-column-gap: 0.75rem;
+       column-gap: 0.75rem;
 }
 
-.border-b-\[3px\] {
-  border-bottom-width: 3px;
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .border-b-\[2px\] {
   border-bottom-width: 2px;
-}
-
-.border-red-800 {
-  --tw-border-opacity: 1;
-  border-color: rgb(153 27 27 / var(--tw-border-opacity));
-}
-
-.border-transparent {
-  border-color: transparent;
 }
 
 .border-black {
@@ -615,42 +648,35 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
-.border-b-\[3\] {
-  border-bottom-color: 3;
+.border-transparent {
+  border-color: transparent;
 }
 
 .p-5 {
   padding: 1.25rem;
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
 .pb-0 {
   padding-bottom: 0px;
-}
-
-.pb-12 {
-  padding-bottom: 3rem;
 }
 
 .pb-3 {
   padding-bottom: 0.75rem;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
 }
 
 .text-\[14px\] {
+  font-size: 14px;
+}
+
+.text-14px {
   font-size: 14px;
 }
 
@@ -658,7 +684,19 @@ video {
   font-weight: 700;
 }
 
+.font-\[500\] {
+  font-weight: 500;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
 .leading-\[48px\] {
+  line-height: 48px;
+}
+
+.leading-48px {
   line-height: 48px;
 }
 
@@ -668,3 +706,5 @@ video {
 }
 
 /* google fonts  */
+
+/* font style for all html  */
