@@ -1222,7 +1222,7 @@ select {
 
 .select-items {
   position: absolute;
-  top: 100%;
+  top: 108%;
   left: 0px;
   right: 0px;
   z-index: 99;

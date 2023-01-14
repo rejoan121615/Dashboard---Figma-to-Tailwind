@@ -67,7 +67,7 @@
 
 .select-items {
     @apply bg-white rounded-6px border border-EAEDF3 [box-shadow:0px_1px_3px_rgba(22,_39,_55,_0.04)]
-     absolute top-full left-0 right-0 z-[99];
+     absolute top-[108%] left-0 right-0 z-[99];
 }
 
 .select-items div {
