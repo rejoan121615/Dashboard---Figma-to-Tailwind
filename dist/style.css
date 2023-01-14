@@ -598,6 +598,30 @@ a {
   margin-left: 0.25rem;
 }
 
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.mb-\[6px\] {
+  margin-bottom: 6px;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
+.mb-\[18px\] {
+  margin-bottom: 18px;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -646,6 +670,10 @@ a {
   height: 1.5rem;
 }
 
+.h-\[10\] {
+  height: 10;
+}
+
 .w-9 {
   width: 2.25rem;
 }
@@ -674,6 +702,30 @@ a {
   width: 1.5rem;
 }
 
+.w-\[14px\] {
+  width: 14px;
+}
+
+.w-3\/5 {
+  width: 60%;
+}
+
+.w-2\/5 {
+  width: 40%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[864px\] {
+  width: 864px;
+}
+
+.w-\[576px\] {
+  width: 576px;
+}
+
 .max-w-\[740px\] {
   max-width: 740px;
 }
@@ -692,8 +744,28 @@ a {
   cursor: pointer;
 }
 
+.list-disc {
+  list-style-type: disc;
+}
+
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-\[362px_50px\] {
+  grid-template-columns: 362px 50px;
+}
+
+.grid-cols-\[362px_33px\] {
+  grid-template-columns: 362px 33px;
+}
+
+.grid-cols-\[362px_px\] {
+  grid-template-columns: 362px px;
+}
+
+.grid-cols-\[360px_33px\] {
+  grid-template-columns: 360px 33px;
 }
 
 .flex-col {
@@ -714,6 +786,10 @@ a {
 
 .justify-end {
   justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -815,6 +891,11 @@ a {
   background-color: rgb(229 41 41 / var(--tw-bg-opacity));
 }
 
+.bg-EAEDF3 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 237 243 / var(--tw-bg-opacity));
+}
+
 .p-5 {
   padding: 1.25rem;
 }
@@ -858,6 +939,16 @@ a {
   padding-bottom: 0.75rem;
 }
 
+.px-\[102px\] {
+  padding-left: 102px;
+  padding-right: 102px;
+}
+
+.px-11 {
+  padding-left: 2.75rem;
+  padding-right: 2.75rem;
+}
+
 .pt-3 {
   padding-top: 0.75rem;
 }
@@ -872,6 +963,14 @@ a {
 
 .pt-\[60px\] {
   padding-top: 60px;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-7 {
+  padding-top: 1.75rem;
 }
 
 .text-center {
@@ -904,6 +1003,21 @@ a {
   font-size: 12px;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -922,6 +1036,10 @@ a {
 
 .font-normal {
   font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .capitalize {
@@ -996,6 +1114,26 @@ a {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-FF008A {
+  --tw-text-opacity: 1;
+  color: rgb(255 0 138 / var(--tw-text-opacity));
+}
+
+.text-\[\#687488\] {
+  --tw-text-opacity: 1;
+  color: rgb(104 116 136 / var(--tw-text-opacity));
+}
+
+.text-687488 {
+  --tw-text-opacity: 1;
+  color: rgb(104 116 136 / var(--tw-text-opacity));
+}
+
+.text-97A1B1 {
+  --tw-text-opacity: 1;
+  color: rgb(151 161 177 / var(--tw-text-opacity));
 }
 
 .shadow-card-drop {
