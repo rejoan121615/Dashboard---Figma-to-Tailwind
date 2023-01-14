@@ -13,6 +13,9 @@ module.exports = {
                 344054: "#344054",
                 D0D5DD: "#D0D5DD",
                 "7E869B": "#7E869B",
+                "97A1B1": "#97A1B1",
+                "687488": "#687488",
+                EAECFO: "#EAECF0"
             },
             borderRadius: {
                 "6px": "6px",
