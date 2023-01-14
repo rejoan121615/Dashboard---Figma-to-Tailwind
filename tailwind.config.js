@@ -8,6 +8,9 @@ module.exports = {
                 "98A2B3": "#98A2B3",
                 EAEDF3: "#EAEDF3",
                 F9FAFD: "#F9FAFD",
+                101828: "#101828",
+                344054: "#344054",
+                D0D5DD: "#D0D5DD",
             },
             borderRadius: {
                 "6px": "6px",
@@ -17,6 +20,7 @@ module.exports = {
             },
             fontSize: {
                 "14px": "14px",
+                "18px": "18px",
             },
             lineHeight: {
                 "19px": "19px",
@@ -24,6 +28,9 @@ module.exports = {
             },
             fontWeight: {
                 500: 500,
+            },
+            boxShadow: {
+                "card-drop": " 0px 1px 2px rgba(16, 24, 40, 0.05)",
             },
         },
     },

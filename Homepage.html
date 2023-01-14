@@ -57,7 +57,7 @@
 
         <!-- Metting Reports -->
         <section class="bg-white border-b border-EAEDF3 px-6 py-5">
-            <div class=" flex items-center justify-between">
+            <div class="flex items-center justify-between">
                 <div>
                     <h4 class="font-semibold text-base leading-19px mb-2">
                         Meeting reports
@@ -67,9 +67,7 @@
                     </p>
                 </div>
                 <div>
-                    <button
-                        class=" btn"
-                    >
+                    <button class="btn">
                         Upload
                         <span class="w-4 h-4">
                             <svg
@@ -94,17 +92,24 @@
         </section>
 
         <!-- main section -->
-        <main class=" bg-F9FAFD ">
-            <div class=" max-w-[740px] w-full mx-auto pt-[60px] ">
+        <main class="bg-F9FAFD">
+            <div class="max-w-[740px] w-full mx-auto pt-[60px]">
                 <!-- Recording -->
-                <div class=" card py-[60px] ">
-                  <!-- upload img  -->
-                    <div class=" w-[172px] h-[145px] mx-auto ">
-                      <img src="./images/recording-upload.png" alt="recording upload img">
+                <div class="card py-[60px]">
+                    <!-- upload img  -->
+                    <div class="w-[172px] h-[145px] mx-auto">
+                        <img
+                            src="./images/recording-upload.png"
+                            alt="recording upload img"
+                        />
                     </div>
-                    <div class=" mt-[46px] ">
-                        <h6 class=" text-center text-[14px] leading-[17px] font-bold mb-1 ">No recordings available yet</h6>
-                        <p class=" text-center text-xs font-500 text-98A2B3  ">
+                    <div class="mt-[46px]">
+                        <h6
+                            class="text-center text-[14px] leading-[17px] font-bold mb-1"
+                        >
+                            No recordings available yet
+                        </h6>
+                        <p class="text-center text-xs font-500 text-98A2B3">
                             Please upload a meeting recording to generate your
                             first report
                         </p>
@@ -112,39 +117,112 @@
                 </div>
 
                 <!-- Personal Info -->
-                <div>
-                    <div>
-                        <h2>Personal info</h2>
+                <div class="mt-10">
+                    <div class=" mb-6">
+                        <h2
+                            class="font-semibold text-18px text-101828 leading-[28px]"
+                        >
+                            Personal info
+                        </h2>
                     </div>
                     <form action="">
-                        <div>
-                            <div>
-                                <label for="">First name</label>
-                                <input type="text" />
+                        <div class="card">
+                            <div class="p-6 grid grid-cols-2 gap-6">
+                                <div class="flex flex-col gap-y-[6px]">
+                                    <label
+                                        class="text-14px font-500 leading-5 text-344054"
+                                        for=""
+                                        >First name</label
+                                    >
+                                    <input
+                                        class="px-[14px] py-[10px] rounded-6px shadow-card-drop border border-D0D5DD text-base font-normal text-101828"
+                                        type="text"
+                                        name="first_name"
+                                        value="Zouhair"
+                                    />
+                                </div>
+                                <div class="flex flex-col gap-y-[6px]">
+                                    <label
+                                        class="text-14px font-500 leading-5 text-344054"
+                                        for=""
+                                        >Last name</label
+                                    >
+                                    <input
+                                        class="px-[14px] py-[10px] rounded-6px shadow-card-drop border border-D0D5DD text-base font-normal text-101828"
+                                        type="text"
+                                        name="last_name"
+                                        value="Majzoub"
+                                    />
+                                </div>
+                                <div class="flex flex-col gap-y-[6px]">
+                                    <label
+                                        class="text-14px font-500 leading-5 text-344054"
+                                        for=""
+                                        >Country</label
+                                    >
+                                    <select
+                                        class="px-[14px] py-[10px] rounded-6px shadow-card-drop border border-D0D5DD text-base font-normal text-101828 cursor-pointer"
+                                        name="country"
+                                        id=""
+                                    >
+                                        <option
+                                            class="cursor-pointer"
+                                            value="morocco"
+                                            selected
+                                        >
+                                            Morocco
+                                        </option>
+                                        <option
+                                            class="cursor-pointer"
+                                            value="bangladesh"
+                                        >
+                                            Bangladesh
+                                        </option>
+                                    </select>
+                                </div>
+                                <div class="flex flex-col gap-y-[6px]">
+                                    <label
+                                        class="text-14px font-500 leading-5 text-344054"
+                                        for=""
+                                        >Language</label
+                                    >
+                                    <select
+                                        class="px-[14px] py-[10px] rounded-6px shadow-card-drop border border-D0D5DD text-base font-normal text-101828 cursor-pointer"
+                                        name="language"
+                                        id=""
+                                    >
+                                        <option
+                                            class="cursor-pointer"
+                                            value="english"
+                                            selected
+                                        >
+                                            English
+                                        </option>
+                                        <option
+                                            class="cursor-pointer"
+                                            value="bangla"
+                                        >
+                                            Bangla
+                                        </option>
+                                    </select>
+                                </div>
+                                <div class="flex flex-col gap-y-[6px] col-span-2 ">
+                                    <label
+                                        class="text-14px font-500 leading-5 text-344054"
+                                        for=""
+                                        >Email address</label
+                                    >
+                                    <input
+                                        class="px-[14px] py-[10px] rounded-6px shadow-card-drop border border-D0D5DD text-base font-normal text-101828"
+                                        type="email"
+                                        name="email"
+                                        value="zouhair.majzoub@gmail.com"
+                                    />
+                                </div>
                             </div>
-                            <div>
-                                <label for="">Last name</label>
-                                <input type="text" />
+                            <div class=" border-t  border-EAEDF3 h-[73px] flex items-center justify-end px-6 ">
+                                <button class=" btn ">Save changes</button>
                             </div>
-                            <div>
-                                <label for="">Country</label>
-                                <select name="" id="">
-                                    <option value="">Morocco</option>
-                                </select>
-                            </div>
-                            <div>
-                                <label for="">Language</label>
-                                <select name="" id="">
-                                    <option value="">English</option>
-                                </select>
-                            </div>
-                            <div>
-                                <label for="">Email address</label>
-                                <input type="email" />
-                            </div>
-                        </div>
-                        <div>
-                            <button>Save changes</button>
                         </div>
                     </form>
                 </div>
