@@ -11,6 +11,7 @@ module.exports = {
                 101828: "#101828",
                 344054: "#344054",
                 D0D5DD: "#D0D5DD",
+                "7E869B": "#7E869B",
             },
             borderRadius: {
                 "6px": "6px",
@@ -19,6 +20,7 @@ module.exports = {
                 inter: "'Inter', sans-serif",
             },
             fontSize: {
+                "12px": "12px",
                 "14px": "14px",
                 "18px": "18px",
             },
@@ -32,6 +34,9 @@ module.exports = {
             boxShadow: {
                 "card-drop": " 0px 1px 2px rgba(16, 24, 40, 0.05)",
             },
+            height: {
+                "84px": "84px"
+            }
         },
     },
     plugins: [],

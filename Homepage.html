@@ -118,7 +118,7 @@
 
                 <!-- Personal Info -->
                 <div class="mt-10">
-                    <div class=" mb-6">
+                    <div class="mb-6">
                         <h2
                             class="font-semibold text-18px text-101828 leading-[28px]"
                         >
@@ -206,7 +206,9 @@
                                         </option>
                                     </select>
                                 </div>
-                                <div class="flex flex-col gap-y-[6px] col-span-2 ">
+                                <div
+                                    class="flex flex-col gap-y-[6px] col-span-2"
+                                >
                                     <label
                                         class="text-14px font-500 leading-5 text-344054"
                                         for=""
@@ -220,28 +222,53 @@
                                     />
                                 </div>
                             </div>
-                            <div class=" border-t  border-EAEDF3 h-[73px] flex items-center justify-end px-6 ">
-                                <button class=" btn ">Save changes</button>
+                            <div
+                                class="border-t border-EAEDF3 h-[73px] flex items-center justify-end px-6"
+                            >
+                                <button class="btn">Save changes</button>
                             </div>
                         </div>
                     </form>
                 </div>
 
                 <!--  -->
-                <div>
-                    <div>
-                        <div>
-                            <p>
-                                <span>Jan 8, 2023</span>
-                                <span>- 09:30 AM</span>
-                            </p>
-                        </div>
-                        <div>
-                            <div>
-                                <div></div>
-                                <div>
-                                    <p>Processing video...</p>
+                <div class="flex flex-col flex-wrap gap-y-7 mt-10">
+                    <div class="">
+                      <!-- event date and title  -->
+                        <p
+                            class="font-semibold text-12px leading-[15px] mb-[10px]"
+                        >
+                            <span>Jan 8, 2023</span>
+                            <span class="ml-1 text-98A2B3">- 09:30 AM</span>
+                        </p>
+                        <!-- events list  -->
+                        <div class=" flex items-center justify-between ">
+                            <div
+                                class="flex items-center gap-x-6 h-84px card px-[22px]"
+                            >
+                                <div class="w-[34px] h-[34px] animate-spin">
+                                    <svg
+                                        class="w-full h-full"
+                                        viewBox="0 0 34 34"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            opacity="0.2"
+                                            d="M34 17C34 26.3888 26.3888 34 17 34C7.61116 34 0 26.3888 0 17C0 7.61116 7.61116 0 17 0C26.3888 0 34 7.61116 34 17ZM5.30089 17C5.30089 23.4612 10.5388 28.6991 17 28.6991C23.4612 28.6991 28.6991 23.4612 28.6991 17C28.6991 10.5388 23.4612 5.30089 17 5.30089C10.5388 5.30089 5.30089 10.5388 5.30089 17Z"
+                                            fill="#FF008A"
+                                        />
+                                        <path
+                                            d="M31.3496 17C32.8134 17 34.0211 15.8063 33.7938 14.3603C33.5857 13.0362 33.2212 11.7384 32.706 10.4944C31.8516 8.43185 30.5994 6.55778 29.0208 4.97918C27.4422 3.40059 25.5682 2.14838 23.5056 1.29405C22.2616 0.77877 20.9638 0.414317 19.6397 0.206198C18.1937 -0.0211003 17 1.18664 17 2.65044V2.65044C17 4.11424 18.2014 5.27104 19.6278 5.59984C20.2581 5.74512 20.8767 5.94275 21.4771 6.19143C22.8965 6.77937 24.1862 7.64112 25.2725 8.72748C26.3589 9.81384 27.2206 11.1035 27.8086 12.5229C28.0572 13.1233 28.2549 13.7419 28.4002 14.3722C28.729 15.7986 29.8858 17 31.3496 17V17Z"
+                                            fill="#FF008A"
+                                        />
+                                    </svg>
                                 </div>
+                                <p
+                                    class="text-14px leading-[17px] font-semibold text-7E869B"
+                                >
+                                    Processing video...
+                                </p>
                             </div>
                         </div>
                     </div>
