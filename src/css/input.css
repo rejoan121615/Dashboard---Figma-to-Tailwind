@@ -19,7 +19,7 @@
 
 @layer components {
   .btn {
-   @apply bg-FF008A font-semibold text-14px leading-5 text-white flex items-center gap-x-3 rounded-full px-5 py-3;
+   @apply bg-FF008A font-semibold text-14px leading-5 text-white flex items-center gap-x-3 rounded-full px-5 py-3 capitalize;
   }
 
   .card {

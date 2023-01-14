@@ -5,6 +5,7 @@ module.exports = {
         extend: {
             colors: {
                 FF008A: "#FF008A",
+                E52929: "#E52929",
                 "98A2B3": "#98A2B3",
                 EAEDF3: "#EAEDF3",
                 F9FAFD: "#F9FAFD",
@@ -25,6 +26,8 @@ module.exports = {
                 "18px": "18px",
             },
             lineHeight: {
+                "15px": "15px",
+                "17px": "17px",
                 "19px": "19px",
                 "48px": "48px",
             },
