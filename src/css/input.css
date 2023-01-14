@@ -21,4 +21,8 @@
   .btn {
    @apply bg-FF008A font-semibold text-14px leading-5 text-white flex items-center gap-x-3 rounded-full px-5 py-3;
   }
+
+  .card {
+    @apply bg-white rounded-6px border border-EAEDF3 [box-shadow:0px_1px_3px_rgba(22,_39,_55,_0.04)] ;
+  }
 }

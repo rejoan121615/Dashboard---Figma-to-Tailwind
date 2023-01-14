@@ -542,6 +542,21 @@ a {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.card {
+  border-radius: 6px;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(234 237 243 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  box-shadow: 0px 1px 3px rgba(22, 39, 55, 0.04);
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -552,6 +567,18 @@ a {
 
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.mt-\[46px\] {
+  margin-top: 46px;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mt-\[60px\] {
+  margin-top: 60px;
 }
 
 .flex {
@@ -574,6 +601,10 @@ a {
   height: 1rem;
 }
 
+.h-\[145px\] {
+  height: 145px;
+}
+
 .w-9 {
   width: 2.25rem;
 }
@@ -588,6 +619,14 @@ a {
 
 .w-4 {
   width: 1rem;
+}
+
+.w-\[172px\] {
+  width: 172px;
+}
+
+.max-w-\[740px\] {
+  max-width: 740px;
 }
 
 .items-start {
@@ -614,6 +653,14 @@ a {
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded-6px {
+  border-radius: 6px;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-b {
@@ -643,8 +690,17 @@ a {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-F9FAFD {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 253 / var(--tw-bg-opacity));
+}
+
 .p-5 {
   padding: 1.25rem;
+}
+
+.p-\[60px\] {
+  padding: 60px;
 }
 
 .px-6 {
@@ -657,6 +713,11 @@ a {
   padding-bottom: 1.25rem;
 }
 
+.py-\[60px\] {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .pt-3 {
   padding-top: 0.75rem;
 }
@@ -667,6 +728,14 @@ a {
 
 .pb-3 {
   padding-bottom: 0.75rem;
+}
+
+.pt-\[60px\] {
+  padding-top: 60px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-\[14px\] {
@@ -685,6 +754,11 @@ a {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-bold {
@@ -723,9 +797,17 @@ a {
   line-height: 1rem;
 }
 
+.leading-\[17px\] {
+  line-height: 17px;
+}
+
 .text-98A2B3 {
   --tw-text-opacity: 1;
   color: rgb(152 162 179 / var(--tw-text-opacity));
+}
+
+.\[box-shadow\:0px_1px_3px_rgba\(22\2c _39\2c _55\2c _0\.04\)\] {
+  box-shadow: 0px 1px 3px rgba(22, 39, 55, 0.04);
 }
 
 /* google fonts  */
