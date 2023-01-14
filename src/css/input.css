@@ -8,27 +8,71 @@
 
 /* font style for all html  */
 @layer base {
-  * {
-    @apply font-inter;
-  }
+    * {
+        @apply font-inter;
+    }
 
-  a {
-    @apply text-14px font-[500] leading-[48px];
-  }
-  /* select box customization  */
-  select {
-    @apply appearance-none relative;
-    background: white url("../../images/icons/chevron-down.png") no-repeat 298px center;
-    background-size: 22px;
-  }
+    a {
+        @apply text-14px font-[500] leading-[48px];
+    }
+    /* select box customization  */
+    select {
+        @apply appearance-none relative;
+        background: white url("../../images/icons/chevron-down.png") no-repeat
+            298px center;
+        background-size: 22px;
+    }
 }
 
 @layer components {
-  .btn {
-   @apply bg-FF008A font-semibold text-14px leading-5 text-white flex items-center gap-x-3 rounded-full px-5 py-3 capitalize;
-  }
+    .btn {
+        @apply bg-FF008A font-semibold text-14px leading-5 text-white flex items-center gap-x-3 rounded-full px-5 py-3 capitalize;
+    }
 
-  .card {
-    @apply bg-white rounded-6px border border-EAEDF3 [box-shadow:0px_1px_3px_rgba(22,_39,_55,_0.04)] ;
-  }
+    .card {
+        @apply bg-white rounded-6px border border-EAEDF3 [box-shadow:0px_1px_3px_rgba(22,_39,_55,_0.04)];
+    }
+}
+
+/* select box style ------------  */
+/*the container must be positioned relative:*/
+.custom-select {
+    position: relative;
+}
+
+.custom-select select {
+    display: none; /*hide original SELECT element:*/
+}
+
+
+
+.select-selected:after {
+  @apply absolute top-[12px] right-[10px] w-[22px] h-[22px];
+    content: "";
+    background: transparent url('../../images/icons/chevron-down.png') no-repeat center center;
+    background-size: 100%;
+}
+
+
+.select-selected {
+  @apply cursor-pointer;
+    user-select: none;
+}
+
+.select-selected {
+    @apply bg-white rounded-6px border border-EAEDF3 [box-shadow:0px_1px_3px_rgba(22,_39,_55,_0.04)] h-[46px] px-[14px] py-[10px];
+    border: 1px solid #d0d5dd;
+
+}
+
+.select-items {
+    @apply bg-white rounded-6px border border-EAEDF3 [box-shadow:0px_1px_3px_rgba(22,_39,_55,_0.04)]
+     absolute top-full left-0 right-0 z-[99];
+}
+
+.select-items div {
+  @apply px-[14px] py-[10px] cursor-pointer;
+}
+.select-hide {
+    display: none;
 }
